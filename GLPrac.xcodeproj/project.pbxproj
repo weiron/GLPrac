@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924238E51ABB80C90081322C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 924238E41ABB80C90081322C /* AppDelegate.m */; };
+		924238E71ABB80C90081322C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 924238E61ABB80C90081322C /* main.m */; };
+		924238EA1ABB80C90081322C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924238E91ABB80C90081322C /* ViewController.m */; };
+		924238EC1ABB80C90081322C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924238EB1ABB80C90081322C /* Images.xcassets */; };
+		924238EF1ABB80C90081322C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924238ED1ABB80C90081322C /* Main.storyboard */; };
+		924238FB1ABB80C90081322C /* GLPracTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924238FA1ABB80C90081322C /* GLPracTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		924238F51ABB80C90081322C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924238D61ABB80C90081322C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924238DD1ABB80C90081322C;
+			remoteInfo = GLPrac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		924238DE1ABB80C90081322C /* GLPrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLPrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		924238E21ABB80C90081322C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924238E31ABB80C90081322C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		924238E41ABB80C90081322C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		924238E61ABB80C90081322C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		924238E81ABB80C90081322C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		924238E91ABB80C90081322C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		924238EB1ABB80C90081322C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		924238EE1ABB80C90081322C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		924238F41ABB80C90081322C /* GLPracTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLPracTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		924238F91ABB80C90081322C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924238FA1ABB80C90081322C /* GLPracTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPracTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924238DB1ABB80C90081322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924238F11ABB80C90081322C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		924238D51ABB80C90081322C = {
+			isa = PBXGroup;
+			children = (
+				924238E01ABB80C90081322C /* GLPrac */,
+				924238F71ABB80C90081322C /* GLPracTests */,
+				924238DF1ABB80C90081322C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924238DF1ABB80C90081322C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924238DE1ABB80C90081322C /* GLPrac.app */,
+				924238F41ABB80C90081322C /* GLPracTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924238E01ABB80C90081322C /* GLPrac */ = {
+			isa = PBXGroup;
+			children = (
+				924238E31ABB80C90081322C /* AppDelegate.h */,
+				924238E41ABB80C90081322C /* AppDelegate.m */,
+				924238E81ABB80C90081322C /* ViewController.h */,
+				924238E91ABB80C90081322C /* ViewController.m */,
+				924238EB1ABB80C90081322C /* Images.xcassets */,
+				924238ED1ABB80C90081322C /* Main.storyboard */,
+				924238E11ABB80C90081322C /* Supporting Files */,
+			);
+			path = GLPrac;
+			sourceTree = "<group>";
+		};
+		924238E11ABB80C90081322C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				924238E21ABB80C90081322C /* Info.plist */,
+				924238E61ABB80C90081322C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		924238F71ABB80C90081322C /* GLPracTests */ = {
+			isa = PBXGroup;
+			children = (
+				924238FA1ABB80C90081322C /* GLPracTests.m */,
+				924238F81ABB80C90081322C /* Supporting Files */,
+			);
+			path = GLPracTests;
+			sourceTree = "<group>";
+		};
+		924238F81ABB80C90081322C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				924238F91ABB80C90081322C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924238DD1ABB80C90081322C /* GLPrac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924238FE1ABB80C90081322C /* Build configuration list for PBXNativeTarget "GLPrac" */;
+			buildPhases = (
+				924238DA1ABB80C90081322C /* Sources */,
+				924238DB1ABB80C90081322C /* Frameworks */,
+				924238DC1ABB80C90081322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLPrac;
+			productName = GLPrac;
+			productReference = 924238DE1ABB80C90081322C /* GLPrac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		924238F31ABB80C90081322C /* GLPracTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924239011ABB80C90081322C /* Build configuration list for PBXNativeTarget "GLPracTests" */;
+			buildPhases = (
+				924238F01ABB80C90081322C /* Sources */,
+				924238F11ABB80C90081322C /* Frameworks */,
+				924238F21ABB80C90081322C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924238F61ABB80C90081322C /* PBXTargetDependency */,
+			);
+			name = GLPracTests;
+			productName = GLPracTests;
+			productReference = 924238F41ABB80C90081322C /* GLPracTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924238D61ABB80C90081322C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Keisuke Matsumura";
+				TargetAttributes = {
+					924238DD1ABB80C90081322C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					924238F31ABB80C90081322C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 924238DD1ABB80C90081322C;
+					};
+				};
+			};
+			buildConfigurationList = 924238D91ABB80C90081322C /* Build configuration list for PBXProject "GLPrac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 924238D51ABB80C90081322C;
+			productRefGroup = 924238DF1ABB80C90081322C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924238DD1ABB80C90081322C /* GLPrac */,
+				924238F31ABB80C90081322C /* GLPracTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924238DC1ABB80C90081322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924238EC1ABB80C90081322C /* Images.xcassets in Resources */,
+				924238EF1ABB80C90081322C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924238F21ABB80C90081322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924238DA1ABB80C90081322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924238EA1ABB80C90081322C /* ViewController.m in Sources */,
+				924238E71ABB80C90081322C /* main.m in Sources */,
+				924238E51ABB80C90081322C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924238F01ABB80C90081322C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924238FB1ABB80C90081322C /* GLPracTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		924238F61ABB80C90081322C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924238DD1ABB80C90081322C /* GLPrac */;
+			targetProxy = 924238F51ABB80C90081322C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		924238ED1ABB80C90081322C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924238EE1ABB80C90081322C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		924238FC1ABB80C90081322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		924238FD1ABB80C90081322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		924238FF1ABB80C90081322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GLPrac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		924239001ABB80C90081322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GLPrac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		924239021ABB80C90081322C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GLPracTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLPrac.app/Contents/MacOS/GLPrac";
+			};
+			name = Debug;
+		};
+		924239031ABB80C90081322C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GLPracTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLPrac.app/Contents/MacOS/GLPrac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924238D91ABB80C90081322C /* Build configuration list for PBXProject "GLPrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924238FC1ABB80C90081322C /* Debug */,
+				924238FD1ABB80C90081322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924238FE1ABB80C90081322C /* Build configuration list for PBXNativeTarget "GLPrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924238FF1ABB80C90081322C /* Debug */,
+				924239001ABB80C90081322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		924239011ABB80C90081322C /* Build configuration list for PBXNativeTarget "GLPracTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924239021ABB80C90081322C /* Debug */,
+				924239031ABB80C90081322C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 924238D61ABB80C90081322C /* Project object */;
+}
