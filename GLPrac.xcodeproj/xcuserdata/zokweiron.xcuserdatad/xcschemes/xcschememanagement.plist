@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GL1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>GLPrac.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>924238F31ABB80C90081322C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>92B1F67D1AC18F8A00FD3E0C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>92B1F6921AC18F8B00FD3E0C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

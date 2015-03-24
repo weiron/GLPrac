@@ -10,5 +10,6 @@
 
 @interface CustomOpenGLView : NSOpenGLView
 
+- (void)scene;
 
 @end

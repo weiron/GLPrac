@@ -14,10 +14,14 @@
     NSTimer *timer;
 }
 
+- (void)scene {
+    
+}
+
 - (void)render {
     [[self openGLContext] makeCurrentContext];
     
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
+    [self scene];
     
     [[self openGLContext] flushBuffer];
 }

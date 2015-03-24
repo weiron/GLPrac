@@ -10,4 +10,6 @@
 
 @interface Gl1View : CustomOpenGLView
 
+- (void)scene;
+
 @end

@@ -7,13 +7,19 @@
 //
 
 #import "Gl1View.h"
+#import <OpenGL/gl3.h>
 
 @implementation Gl1View
 
-- (void)drawRect:(NSRect)dirtyRect {
-    [super drawRect:dirtyRect];
+- (void)scene {
+    glClearColor(0.2, 0.6, 0, 1);
+    glClear(GL_COLOR_BUFFER_BIT);
+}
+
+- (void)prepareOpenGL {
+    [super prepareOpenGL];
     
-    // Drawing code here.
+    
 }
 
 @end

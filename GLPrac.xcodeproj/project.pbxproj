@@ -15,6 +15,15 @@
 		924238EC1ABB80C90081322C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924238EB1ABB80C90081322C /* Images.xcassets */; };
 		924238EF1ABB80C90081322C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924238ED1ABB80C90081322C /* Main.storyboard */; };
 		924238FB1ABB80C90081322C /* GLPracTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 924238FA1ABB80C90081322C /* GLPracTests.m */; };
+		92B1F6841AC18F8A00FD3E0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1F6831AC18F8A00FD3E0C /* AppDelegate.m */; };
+		92B1F6861AC18F8A00FD3E0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1F6851AC18F8A00FD3E0C /* main.m */; };
+		92B1F6891AC18F8A00FD3E0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1F6881AC18F8A00FD3E0C /* ViewController.m */; };
+		92B1F68B1AC18F8A00FD3E0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B1F68A1AC18F8A00FD3E0C /* Images.xcassets */; };
+		92B1F68E1AC18F8B00FD3E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B1F68C1AC18F8B00FD3E0C /* Main.storyboard */; };
+		92B1F69A1AC18F8B00FD3E0C /* GL1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1F6991AC18F8B00FD3E0C /* GL1Tests.m */; };
+		92B1F6A31AC18FE000FD3E0C /* Gl1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B1F6A21AC18FE000FD3E0C /* Gl1View.m */; };
+		92B1F6A41AC1901E00FD3E0C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 920D80E21AC0789400FA802E /* OpenGL.framework */; };
+		92B1F6A51AC1908200FD3E0C /* CustomOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920D80E01AC0781C00FA802E /* CustomOpenGLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +33,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 924238DD1ABB80C90081322C;
 			remoteInfo = GLPrac;
+		};
+		92B1F6941AC18F8B00FD3E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924238D61ABB80C90081322C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92B1F67D1AC18F8A00FD3E0C;
+			remoteInfo = GL1;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -43,6 +59,20 @@
 		924238F41ABB80C90081322C /* GLPracTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLPracTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		924238F91ABB80C90081322C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		924238FA1ABB80C90081322C /* GLPracTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPracTests.m; sourceTree = "<group>"; };
+		92B1F67E1AC18F8A00FD3E0C /* GL1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GL1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B1F6811AC18F8A00FD3E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B1F6821AC18F8A00FD3E0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92B1F6831AC18F8A00FD3E0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92B1F6851AC18F8A00FD3E0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92B1F6871AC18F8A00FD3E0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92B1F6881AC18F8A00FD3E0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92B1F68A1AC18F8A00FD3E0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92B1F68D1AC18F8B00FD3E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92B1F6931AC18F8B00FD3E0C /* GL1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GL1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B1F6981AC18F8B00FD3E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B1F6991AC18F8B00FD3E0C /* GL1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GL1Tests.m; sourceTree = "<group>"; };
+		92B1F6A11AC18FE000FD3E0C /* Gl1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gl1View.h; sourceTree = "<group>"; };
+		92B1F6A21AC18FE000FD3E0C /* Gl1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gl1View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +91,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92B1F67B1AC18F8A00FD3E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B1F6A41AC1901E00FD3E0C /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B1F6901AC18F8B00FD3E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -70,6 +115,8 @@
 				920D80E21AC0789400FA802E /* OpenGL.framework */,
 				924238E01ABB80C90081322C /* GLPrac */,
 				924238F71ABB80C90081322C /* GLPracTests */,
+				92B1F67F1AC18F8A00FD3E0C /* GL1 */,
+				92B1F6961AC18F8B00FD3E0C /* GL1Tests */,
 				924238DF1ABB80C90081322C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +126,8 @@
 			children = (
 				924238DE1ABB80C90081322C /* GLPrac.app */,
 				924238F41ABB80C90081322C /* GLPracTests.xctest */,
+				92B1F67E1AC18F8A00FD3E0C /* GL1.app */,
+				92B1F6931AC18F8B00FD3E0C /* GL1Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +174,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		92B1F67F1AC18F8A00FD3E0C /* GL1 */ = {
+			isa = PBXGroup;
+			children = (
+				92B1F6821AC18F8A00FD3E0C /* AppDelegate.h */,
+				92B1F6831AC18F8A00FD3E0C /* AppDelegate.m */,
+				92B1F6871AC18F8A00FD3E0C /* ViewController.h */,
+				92B1F6881AC18F8A00FD3E0C /* ViewController.m */,
+				92B1F68A1AC18F8A00FD3E0C /* Images.xcassets */,
+				92B1F68C1AC18F8B00FD3E0C /* Main.storyboard */,
+				92B1F6801AC18F8A00FD3E0C /* Supporting Files */,
+				92B1F6A11AC18FE000FD3E0C /* Gl1View.h */,
+				92B1F6A21AC18FE000FD3E0C /* Gl1View.m */,
+			);
+			path = GL1;
+			sourceTree = "<group>";
+		};
+		92B1F6801AC18F8A00FD3E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92B1F6811AC18F8A00FD3E0C /* Info.plist */,
+				92B1F6851AC18F8A00FD3E0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92B1F6961AC18F8B00FD3E0C /* GL1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				92B1F6991AC18F8B00FD3E0C /* GL1Tests.m */,
+				92B1F6971AC18F8B00FD3E0C /* Supporting Files */,
+			);
+			path = GL1Tests;
+			sourceTree = "<group>";
+		};
+		92B1F6971AC18F8B00FD3E0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92B1F6981AC18F8B00FD3E0C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,6 +254,41 @@
 			productReference = 924238F41ABB80C90081322C /* GLPracTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		92B1F67D1AC18F8A00FD3E0C /* GL1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B1F69F1AC18F8B00FD3E0C /* Build configuration list for PBXNativeTarget "GL1" */;
+			buildPhases = (
+				92B1F67A1AC18F8A00FD3E0C /* Sources */,
+				92B1F67B1AC18F8A00FD3E0C /* Frameworks */,
+				92B1F67C1AC18F8A00FD3E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GL1;
+			productName = GL1;
+			productReference = 92B1F67E1AC18F8A00FD3E0C /* GL1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92B1F6921AC18F8B00FD3E0C /* GL1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92B1F6A01AC18F8B00FD3E0C /* Build configuration list for PBXNativeTarget "GL1Tests" */;
+			buildPhases = (
+				92B1F68F1AC18F8B00FD3E0C /* Sources */,
+				92B1F6901AC18F8B00FD3E0C /* Frameworks */,
+				92B1F6911AC18F8B00FD3E0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92B1F6951AC18F8B00FD3E0C /* PBXTargetDependency */,
+			);
+			name = GL1Tests;
+			productName = GL1Tests;
+			productReference = 92B1F6931AC18F8B00FD3E0C /* GL1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,6 +304,13 @@
 					924238F31ABB80C90081322C = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 924238DD1ABB80C90081322C;
+					};
+					92B1F67D1AC18F8A00FD3E0C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					92B1F6921AC18F8B00FD3E0C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 92B1F67D1AC18F8A00FD3E0C;
 					};
 				};
 			};
@@ -196,6 +329,8 @@
 			targets = (
 				924238DD1ABB80C90081322C /* GLPrac */,
 				924238F31ABB80C90081322C /* GLPracTests */,
+				92B1F67D1AC18F8A00FD3E0C /* GL1 */,
+				92B1F6921AC18F8B00FD3E0C /* GL1Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -211,6 +346,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		924238F21ABB80C90081322C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B1F67C1AC18F8A00FD3E0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B1F68B1AC18F8A00FD3E0C /* Images.xcassets in Resources */,
+				92B1F68E1AC18F8B00FD3E0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B1F6911AC18F8B00FD3E0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,6 +390,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92B1F67A1AC18F8A00FD3E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B1F6891AC18F8A00FD3E0C /* ViewController.m in Sources */,
+				92B1F6861AC18F8A00FD3E0C /* main.m in Sources */,
+				92B1F6A51AC1908200FD3E0C /* CustomOpenGLView.m in Sources */,
+				92B1F6841AC18F8A00FD3E0C /* AppDelegate.m in Sources */,
+				92B1F6A31AC18FE000FD3E0C /* Gl1View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92B1F68F1AC18F8B00FD3E0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B1F69A1AC18F8B00FD3E0C /* GL1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -247,6 +418,11 @@
 			target = 924238DD1ABB80C90081322C /* GLPrac */;
 			targetProxy = 924238F51ABB80C90081322C /* PBXContainerItemProxy */;
 		};
+		92B1F6951AC18F8B00FD3E0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92B1F67D1AC18F8A00FD3E0C /* GL1 */;
+			targetProxy = 92B1F6941AC18F8B00FD3E0C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -254,6 +430,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				924238EE1ABB80C90081322C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92B1F68C1AC18F8B00FD3E0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92B1F68D1AC18F8B00FD3E0C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -395,6 +579,68 @@
 			};
 			name = Release;
 		};
+		92B1F69B1AC18F8B00FD3E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GL1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92B1F69C1AC18F8B00FD3E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GL1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92B1F69D1AC18F8B00FD3E0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GL1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GL1.app/Contents/MacOS/GL1";
+			};
+			name = Debug;
+		};
+		92B1F69E1AC18F8B00FD3E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GL1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GL1.app/Contents/MacOS/GL1";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,6 +670,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		92B1F69F1AC18F8B00FD3E0C /* Build configuration list for PBXNativeTarget "GL1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B1F69B1AC18F8B00FD3E0C /* Debug */,
+				92B1F69C1AC18F8B00FD3E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92B1F6A01AC18F8B00FD3E0C /* Build configuration list for PBXNativeTarget "GL1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B1F69D1AC18F8B00FD3E0C /* Debug */,
+				92B1F69E1AC18F8B00FD3E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
